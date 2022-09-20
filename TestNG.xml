@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNGFrame">
+<listeners>
+<listener class-name="Com.Demosite.utilities.TestNGListeners"></listener>
+</listeners>
+<test name="Demosite Test">
+	<parameter name="browser" value="chrome"/>
+	<classes>
+		<class name="Com.Demosite.testCases.Tc_LoginTest_001" />
+	</classes>
+	
+
+</test>
+
+</suite>
